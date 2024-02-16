@@ -11,6 +11,7 @@
 		49F16DD82B7F067A006C9AAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F16DD72B7F067A006C9AAF /* ContentView.swift */; };
 		49F16DDA2B7F067B006C9AAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F16DD92B7F067B006C9AAF /* Assets.xcassets */; };
 		49F16DDD2B7F067B006C9AAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F16DDC2B7F067B006C9AAF /* Preview Assets.xcassets */; };
+		49F16DED2B7F06E8006C9AAF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F16DEC2B7F06E8006C9AAF /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		49F16DD72B7F067A006C9AAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49F16DD92B7F067B006C9AAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49F16DDC2B7F067B006C9AAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49F16DEC2B7F06E8006C9AAF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,12 @@
 		49F16DD42B7F067A006C9AAF /* ThreadsTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				49F16DD52B7F067A006C9AAF /* ThreadsTutorialApp.swift */,
-				49F16DD72B7F067A006C9AAF /* ContentView.swift */,
+				49F16DE82B7F069D006C9AAF /* App */,
+				49F16DE72B7F069B006C9AAF /* Core */,
+				49F16DE62B7F069A006C9AAF /* Extensions */,
+				49F16DE52B7F0698006C9AAF /* Model */,
+				49F16DE42B7F0696006C9AAF /* Services */,
+				49F16DE32B7F068C006C9AAF /* Utils */,
 				49F16DD92B7F067B006C9AAF /* Assets.xcassets */,
 				49F16DDB2B7F067B006C9AAF /* Preview Content */,
 			);
@@ -65,6 +71,75 @@
 				49F16DDC2B7F067B006C9AAF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49F16DE32B7F068C006C9AAF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		49F16DE42B7F0696006C9AAF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		49F16DE52B7F0698006C9AAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		49F16DE62B7F069A006C9AAF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		49F16DE72B7F069B006C9AAF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				49F16DEA2B7F06C2006C9AAF /* Authentication */,
+				49F16DE92B7F06C0006C9AAF /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		49F16DE82B7F069D006C9AAF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				49F16DD52B7F067A006C9AAF /* ThreadsTutorialApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		49F16DE92B7F06C0006C9AAF /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				49F16DD72B7F067A006C9AAF /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		49F16DEA2B7F06C2006C9AAF /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				49F16DEB2B7F06DE006C9AAF /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		49F16DEB2B7F06DE006C9AAF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49F16DEC2B7F06E8006C9AAF /* LoginView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F16DED2B7F06E8006C9AAF /* LoginView.swift in Sources */,
 				49F16DD82B7F067A006C9AAF /* ContentView.swift in Sources */,
 				49F16DD62B7F067A006C9AAF /* ThreadsTutorialApp.swift in Sources */,
 			);
